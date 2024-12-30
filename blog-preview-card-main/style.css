@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+
+}
+.container{
+    background-color: white;
+    border-radius: 15px;
+    border: 3px solid black ;
+    width: 22%;
+    height: 470px;
+    justify-content:space-between;
+    margin:auto;
+    margin-top: 150px;
+    padding: 15px; 
+    box-shadow: .35rem .35rem .35rem rgb(0,0,0);
+
+
+}
+.image{
+width:100%;
+border-radius: 15px;
+
+}
+.button{
+    background-color: rgb(229, 229, 5);
+    color: black;
+    border: 2px solid rgb(229, 229, 5);
+    border-radius: 3px;
+    font-weight: bold;
+}
+.container3{
+    display: flex;
+    align-items: center;
+}
+.img1{
+    width: 2.12rem;
+    margin: right 0.75em;;
+}
+.span{
+    color: black;
+    font-weight: bold;
+
+}
+@media (min-width: 500px) {
+    .container{
+        width: 21.875rem;
+        height: 31.25rem;
+    }
+
+    .container3{
+        gap: 1.5rem;
+    }
+   
+}
